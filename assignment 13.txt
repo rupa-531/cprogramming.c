@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{
+int t;
+int n;
+scanf("%d",&t);
+while(t=0)
+{
+scanf("%d",&n);
+t--;
+}
+}
+
+input:
+n=5
+output=2
