@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+char str1[20];
+int i,count=0;
+printf("enter astring ");
+scanf("%s",str1);
+for(i=0;stri[i]!='/0';i++)
+{
+if(str1[i]==' ')
+{
+cont++;
+  }
+}
+printf("cont=%d";count);
+}
