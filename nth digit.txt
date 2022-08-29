@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+char s[50];
+int x[128];
+int i,count=0;
+gets (S);
+for(i=0;s[i]!='/0';i++)
+{
+x[s[i]]=1;
+}
+for(i=0;i<128;i++)
+count=count+x[i];
+printf("distinct characters count %d",count);
+} 
+
+input:aditya
+output:5
