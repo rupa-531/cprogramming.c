@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+int n,fact(int),f;
+printf("enter the number");
+scanf("%d",&n);
+f=fact(n);
+printf("factorial of the given number is %d",f);
+}
+fact(int m)
+{
+if(m==0// m==1)
+return(1);
+else
+f=m*fact(m-1);
+return (f);
+}
